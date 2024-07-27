@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-horizontal{
+    list-style: none;
+    background-color: rgb(19, 18, 18);
+}
+#menu-horizontal li{
+    display: inline;
+}
+#menu-horizontal a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#menu-horizontal a:hover{
+   background-color: #526C3F;
+}
+#menu-horizontal li:last-child a{
+    float: right;
+}
+.cabeca{
+    background-color: #526C3F;
+}
+.Logo{
+width: 200px;
+}
+.corpo{
+   background-image: linear-gradient(#526C3F, #539922);
+    padding: 50px;
+}
+.Titulo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    text-decoration: overline underline;
+}
+.texto{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.texto-1{
+    padding: 50px;
+    color: #d4cbcb;
+    font-size: larger;
+    text-decoration: underline overline;
+    text-align: center;
+    text-shadow: 10px 10px 10px #000;
+}
+.img{
+    box-shadow: 20px 20px 20px #000;
+}
+.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.titlo-2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    text-decoration: overline underline;
+    align-items: center;
+    text-align: center;
+}
+.docu{
+    box-shadow: 20px 20px 20px #000;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-horizontal{
+    list-style: none;
+    background-color: rgb(19, 18, 18);
+}
+#menu-horizontal li{
+    display: inline;
+}
+#menu-horizontal a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#menu-horizontal a:hover{
+   background-color: #526C3F;
+}
+#menu-horizontal li:last-child a{
+    float: right;
+}
+.cabeca{
+    background-color: #526C3F;
+}
+.Logo{
+width: 200px;
+}
+.corpo{
+   background-image: linear-gradient(#526C3F, #539922);
+    padding: 50px;
+}
+.Titulo{
+    display: flex; 
+    justify-content: center; 
+    color: #d4cbcb; 
+    padding: 20px;
+    text-decoration: underline overline;
+}
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    padding: 50px;
+}
+.texto{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    text-indent: 50px;
+}
+.sub-sub-titulo{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    text-decoration: underline;
+}
+.texto-2{
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    text-align: center;
+    padding: 28px;
+}
+.Titulo-fe{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+#lista-fe{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #d4cbcb;
+    list-style: none;
+}
+#lista-fe li{
+    padding: 20px;
+}
+footer {
+    background-image: linear-gradient(#539922, #526C3F);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    margin-top: 0px;
+    padding: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+.fim{text-align: center; color: #d4cbcb; line-height: 2.5;
+    font-size: larger;
+    }
+    
+    .meio{display: flex;
+    justify-content: center;}
+    
+    .imgfoo{width: 67px;
+    border-radius: 50%;
+    padding: 0px 30px;}
+
+    .rodatexto{margin: 20px 16px 11px 15px;
+        color: #d4cbcb;
+        font-size: larger;
+        }

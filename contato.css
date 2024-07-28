@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-horizontal{
+    list-style: none;
+    background-color: rgb(19, 18, 18);
+}
+#menu-horizontal li{
+    display: inline;
+}
+#menu-horizontal a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#menu-horizontal a:hover{
+   background-color: #526C3F;
+}
+.cabeca{
+    background-color: #526C3F;
+}
+.Logo{
+width: 200px;
+}
+.corpo{
+    background-image: linear-gradient(#526C3F, #539922);
+     padding: 50px;
+ }
+ .Titulo{
+    display: flex; 
+    justify-content: center; 
+    padding: 20px;
+    color: #d4cbcb;
+    font-size: 40px;
+    text-decoration: underline overline;
+}
+.formulario {
+    padding: 60px;
+    border: 0px solid #ccc;
+    background-image: linear-gradient(#527439, #539624);
+    color: #526C3F;
+}
+
+.formulario p {
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.field {
+    width: 100%;
+    margin: 15px 0;
+    color: #d4cbcb;
+}
+
+.field label,
+.field span {
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.radiobox label {
+    width: auto;
+    display: inline-block;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #d4cbcb;
+    outline: none;
+    background-color: #526C3F;
+}
+
+input#nao {
+    margin-left: 30px;
+}
+
+textarea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+    background-color: #526C3F;
+}
+
+input[type=submit] {
+    display: block;
+    background-color: #d4cbcb;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.envi{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-image: linear-gradient(#539922, #526C3F);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    margin-top: 0px;
+    padding: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+.fim{text-align: center; color: #d4cbcb; line-height: 2.5;
+    font-size: larger;
+    }
+    
+    .meio{display: flex;
+    justify-content: center;}
+    
+    .imgfoo{width: 67px;
+    border-radius: 50%;
+    padding: 0px 30px;}
+
+    .rodatexto{margin: 20px 16px 11px 15px;
+        color: #d4cbcb;
+        font-size: larger;
+        }
